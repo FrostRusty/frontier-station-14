@@ -8,7 +8,7 @@
       path: /Audio/Announcements/attention.ogg
     endAnnouncement: station-event-bluespace-cache-end-announcement
     earliestStart: 100
-    minimumPlayers: 30
+    minimumPlayers: 2
     weight: 5
     duration: 1350
     maxDuration: 1560
@@ -28,7 +28,7 @@
       path: /Audio/Announcements/attention.ogg
     endAnnouncement: station-event-bluespace-vault-end-announcement
     earliestStart: 100
-    minimumPlayers: 30
+    minimumPlayers: 2
     weight: 5
     duration: 1020
     maxDuration: 1350
@@ -48,7 +48,7 @@
       path: /Audio/Announcements/attention.ogg
     endAnnouncement: station-event-bluespace-vault-end-announcement
     earliestStart: 100
-    minimumPlayers: 30
+    minimumPlayers: 2
     maximumPlayers: 45
     weight: 5
     duration: 590
@@ -123,7 +123,7 @@
       path: /Audio/Misc/notice1.ogg
     endAnnouncement: station-event-bluespace-generic-ftl-end-announcement
     earliestStart: 100
-    minimumPlayers: 35
+    minimumPlayers: 2
     weight: 2
     duration: 2100
     maxDuration: 2400
@@ -142,7 +142,7 @@
       path: /Audio/Misc/notice1.ogg
     endAnnouncement: station-event-bluespace-generic-ftl-end-announcement
     earliestStart: 80
-    minimumPlayers: 45
+    minimumPlayers: 2
     weight: 1
     duration: 1800
     maxDuration: 2400
@@ -161,7 +161,7 @@
       path: /Audio/Misc/notice1.ogg
     endAnnouncement: station-event-bluespace-generic-ftl-end-announcement
     earliestStart: 100
-    minimumPlayers: 45
+    minimumPlayers: 2
     weight: 1
     duration: 900
     maxDuration: 1200
@@ -180,7 +180,7 @@
       path: /Audio/Misc/notice1.ogg
     endAnnouncement: station-event-bluespace-generic-ftl-end-announcement
     earliestStart: 80
-    minimumPlayers: 45
+    minimumPlayers: 2
     weight: 1
     duration: 1800
     maxDuration: 2400

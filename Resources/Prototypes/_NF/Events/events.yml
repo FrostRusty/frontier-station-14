@@ -25,6 +25,7 @@
     - id: BluespaceSyndicateCrate # Frontier
     - id: BluespaceBrokenMcDelivery # Frontier
     - id: SmugglingFax # Frontier
+    - id: CarpSpawn
 
 - type: entityTable
   id: BasicAntagEventsTable
@@ -600,3 +601,26 @@
 #       maxOccurrences: 1 # this event has diminishing returns on interesting-ness, so we cap it
 #       weight: 5
 #     - type: MobReplacementRule
+
+- type: entity
+  id: CarpSpawn
+  parent: BaseStationEventShortDelay
+  components:
+  - type: StationEvent
+    startAnnouncement: station-event-vent-creatures-start-announcement
+    startAudio:
+      path: /Audio/Announcements/attention.ogg
+    earliestStart: 20
+    minimumPlayers: 1
+    weight: 5
+    duration: 60
+  - type: VentCrittersRule
+    entries:
+    - id: MobCarp
+      prob: 0.02
+    - id: MobCarpHolo
+      prob: 0.01
+    - id: MobCarpMagic
+      prob: 0.01
+    - id: MobShark
+      prob: 0.02
