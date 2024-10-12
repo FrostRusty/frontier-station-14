@@ -12,7 +12,7 @@
   id: Immortal
   name: RAE Immortal
   description: The Immortal, an advanced version of the beloved flagship of Red Astra Enterprises.
-  price: 350000
+  price: 800000
   category: Large
   group: Shipyard
   shuttlePath: /Maps/_NF/Shuttles/RedAstraImmortal.yml
