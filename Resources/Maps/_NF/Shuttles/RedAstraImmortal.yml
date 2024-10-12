@@ -3429,8 +3429,6 @@ entities:
       pos: 22.5,17.5
       parent: 1
     - type: DeviceNetwork
-      configurators:
-      - invalid
 - proto: AloeSeeds
   entities:
   - uid: 300
@@ -24846,8 +24844,6 @@ entities:
       pos: 6.5,46.5
       parent: 1
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 7685
       - 5814
@@ -24857,8 +24853,6 @@ entities:
       pos: 5.5,46.5
       parent: 1
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 7685
       - 5814
@@ -24868,8 +24862,6 @@ entities:
       pos: 4.5,46.5
       parent: 1
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 7685
       - 5814
@@ -39135,9 +39127,6 @@ entities:
     - type: Transform
       pos: 0.62262917,30.684626
       parent: 1
-    - type: SpecialRespawn
-      stationMap:
-        invalid: 1
 - proto: OreBag
   entities:
   - uid: 1081
