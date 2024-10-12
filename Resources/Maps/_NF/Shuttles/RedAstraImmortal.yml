@@ -2264,9 +2264,6 @@ entities:
       - 5813
       - 5189
       - 5190
-      - 7680
-      - 7681
-      - 7682
   - uid: 5815
     components:
     - type: Transform
@@ -2300,9 +2297,6 @@ entities:
       devices:
       - 7708
       - 7709
-      - 7680
-      - 7681
-      - 7682
       - 7671
       - 7672
       - 7673
@@ -3421,16 +3415,6 @@ entities:
       rot: 3.141592653589793 rad
       pos: 18.5,48.5
       parent: 1
-- proto: AirSensor
-  entities:
-  - uid: 505
-    components:
-    - type: Transform
-      pos: 22.5,17.5
-      parent: 1
-    - type: DeviceNetwork
-      configurators:
-      - invalid
 - proto: AloeSeeds
   entities:
   - uid: 300
@@ -24840,39 +24824,6 @@ entities:
     - type: DeviceNetwork
       deviceLists:
       - 7685
-  - uid: 7680
-    components:
-    - type: Transform
-      pos: 6.5,46.5
-      parent: 1
-    - type: DeviceNetwork
-      configurators:
-      - invalid
-      deviceLists:
-      - 7685
-      - 5814
-  - uid: 7681
-    components:
-    - type: Transform
-      pos: 5.5,46.5
-      parent: 1
-    - type: DeviceNetwork
-      configurators:
-      - invalid
-      deviceLists:
-      - 7685
-      - 5814
-  - uid: 7682
-    components:
-    - type: Transform
-      pos: 4.5,46.5
-      parent: 1
-    - type: DeviceNetwork
-      configurators:
-      - invalid
-      deviceLists:
-      - 7685
-      - 5814
   - uid: 7932
     components:
     - type: Transform
@@ -39128,16 +39079,6 @@ entities:
     - type: Transform
       pos: 8.5,-33.5
       parent: 1
-- proto: NukeDisk
-  entities:
-  - uid: 972
-    components:
-    - type: Transform
-      pos: 0.62262917,30.684626
-      parent: 1
-    - type: SpecialRespawn
-      stationMap:
-        invalid: 1
 - proto: OreBag
   entities:
   - uid: 1081
