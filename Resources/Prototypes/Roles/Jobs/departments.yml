@@ -171,7 +171,8 @@
   - PrisonGuard ##nyano
   - Brigmedic # Frontier
  #  - SecurityGuard # Frontier
-  - DetectiveNF # Frontier
+ # - DetectiveNF # Frontier
+  - NFDetective 
   - Cadet # Frontier
   - Deputy # Frontier
   - Bailiff # Frontier
