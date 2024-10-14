@@ -302,3 +302,41 @@
     containers:
       mech-battery-slot:
       - PowerCellHigh
+
+- type: entity
+  id: MechSilverback
+  parent: BaseMech
+  name: Silverback
+  description: PLACEHOLDER
+  components:
+  - type: Sprite
+    drawdepth: Mobs
+    noRot: true
+    sprite: Objects/Specific/Mech/mecha.rsi
+    layers:
+    - map: [ "enum.MechVisualLayers.Base" ]
+      state: silverback
+  - type: FootstepModifier
+    footstepSoundCollection:
+      path: /Audio/Mecha/sound_mecha_powerloader_step.ogg
+  - type: Mech
+    baseState: silverback
+    openState: silverback
+    brokenState: silverback
+    mechToPilotDamageMultiplier: 0.50
+    pilotWhitelist:
+      components:
+        - HumanoidAppearance
+  - type: MovementSpeedModifier
+    baseWalkSpeed: 2.25
+    baseSprintSpeed: 3.6
+
+- type: entity
+  id: MechSilverbackBattery
+  parent: MechSilverback
+  suffix: Battery
+  components:
+  - type: ContainerFill
+    containers:
+      mech-battery-slot:
+      - PowerCellHigh

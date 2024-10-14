@@ -486,6 +486,10 @@
     {
       "name": "vim-broken",
       "directions": 4
+    },
+    {
+      "name": "silverback",
+      "directions": 4
     }
   ]
 }
