@@ -1443,12 +1443,6 @@ entities:
       rot: -1.5707963267948966 rad
       pos: -9.5,7.5
       parent: 1
-  - uid: 668
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: -9.5,8.5
-      parent: 1
   - uid: 669
     components:
     - type: Transform
@@ -8025,13 +8019,6 @@ entities:
     - type: Transform
       pos: -16.5,-15.5
       parent: 1
-- proto: MachineAnomalyGeneratorFlatpack
-  entities:
-  - uid: 668
-    components:
-    - type: Transform
-      pos: 0.46689647,0.6410319
-      parent: 1
 - proto: MachineAnomalyVessel
   entities:
   - uid: 5
@@ -8606,13 +8593,6 @@ entities:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: 19.5,12.5
-      parent: 1
-- proto: RandomAnomalySpawner
-  entities:
-  - uid: 669
-    components:
-    - type: Transform
-      pos: 0.5,11.5
       parent: 1
   - uid: 690
     components:
