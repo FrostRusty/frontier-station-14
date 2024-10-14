@@ -78,6 +78,8 @@
   - type: Input
     context: "human"
   - type: MobState # Frontier (otherwise NPCs won't attack the entity)
+  - type: StaticPrice
+    price: 1080
 
 - type: entity # A search light for turrets
   id: BaseTurretSearchBeam
@@ -175,3 +177,5 @@
   - type: BatterySelfRecharger
     autoRecharge: true
     autoRechargeRate: 5
+  # - type: StaticPrice # for arbitrage tests
+  #   price: 50
