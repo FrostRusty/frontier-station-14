@@ -40160,16 +40160,6 @@ entities:
     - type: Transform
       pos: 8.5,-33.5
       parent: 1
-- proto: NukeDisk
-  entities:
-  - uid: 972
-    components:
-    - type: Transform
-      pos: 0.62262917,30.684626
-      parent: 1
-    - type: SpecialRespawn
-      stationMap:
-        invalid: 1
 - proto: NutimovCircuitBoard
   entities:
   - uid: 8504
