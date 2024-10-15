@@ -8139,13 +8139,6 @@ entities:
       parent: 1
     - type: DisableToolUse
       anchoring: True
-- proto: MedkitOxygenFilled
-  entities:
-  - uid: 1584
-    components:
-    - type: Transform
-      pos: 14.470062,8.600368
-      parent: 1
 - proto: MedkitRadiationFilled
   entities:
   - uid: 1582
