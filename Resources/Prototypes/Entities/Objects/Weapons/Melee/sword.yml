@@ -227,7 +227,7 @@
   - type: Sprite
     sprite: Objects/Weapons/Melee/bladesofchaos.rsi
   - type: MeleeWeapon
-    attackrate: 1.8
+    attackRate: 1.8
     damage:
       types:
         Slash: 8
