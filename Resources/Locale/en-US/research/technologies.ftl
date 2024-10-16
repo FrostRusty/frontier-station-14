@@ -39,6 +39,7 @@ research-technology-basic-shuttle-armament = Shuttle basic armament
 research-technology-advanced-shuttle-weapon = Advanced shuttle weapons
 research-technology-heavy-weaponry = Heavy Weaponry
 research-technology-combat-mechs = Combat Mechs
+research-technology-slayer = Slayer
 
 research-technology-basic-robotics = Basic Robotics
 research-technology-basic-anomalous-research = Basic Anomalous Research

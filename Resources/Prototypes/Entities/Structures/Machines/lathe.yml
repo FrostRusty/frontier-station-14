@@ -925,6 +925,7 @@
       - MagazineLightRifleBox
       - WeaponLightMachineGunL6
       - MechEquipmentChaingun
+      - BladesOfChaos
   - type: MaterialStorage
     whitelist:
       tags:
