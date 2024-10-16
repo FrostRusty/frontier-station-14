@@ -483,3 +483,131 @@
     graph: Vim
     node: start
     defaultTarget: vim
+
+# Silverback
+
+- type: entity
+  id: BaseSilverbackPart
+  parent: BaseMechPart
+  abstract: true
+  components:
+  - type: Sprite
+    drawdepth: Items
+    noRot: false
+    sprite: Objects/Specific/Mech/ripley_construction.rsi
+
+- type: entity
+  id: BaseSilverbackPartItem
+  parent: BaseSilverbackPart
+  abstract: true
+  components:
+  - type: Item
+    size: Ginormous
+
+- type: entity
+  parent: BaseSilverbackPart
+  id: SilverbackHarness
+  name: silverback harness
+  description: The core of the Silverback combat mech.
+  components:
+  - type: Appearance
+  - type: ItemMapper
+    mapLayers:
+      ripley_l_arm+o:
+        whitelist:
+          tags:
+          - SilverbackLArm
+      ripley_r_arm+o:
+        whitelist:
+          tags:
+          - SilverbackRArm
+      ripley_l_leg+o:
+        whitelist:
+          tags:
+          - SilverbackLLeg
+      ripley_r_leg+o:
+        whitelist:
+          tags:
+          - SilverbackRLeg
+    sprite: Objects/Specific/Mech/ripley_construction.rsi
+  - type: ContainerContainer
+    containers:
+      mech-assembly-container: !type:Container
+  - type: MechAssembly
+    finishedPrototype: SilverbackChassis
+    requiredParts:
+      SilverbackLArm: false
+      SilverbackRArm: false
+      SilverbackLLeg: false
+      SilverbackRLeg: false
+  - type: Sprite
+    state: ripley_harness+o
+    noRot: true
+
+- type: entity
+  parent: BaseSilverbackPartItem
+  id: SilverbackLArm
+  name: silverback left arm
+  description: The left arm of the Silverback combat mech. It belongs on the chassis of the mech.
+  components:
+  - type: Sprite
+    state: ripley_l_arm
+  - type: Tag
+    tags:
+    - SilverbackLArm
+
+- type: entity
+  parent: BaseSilverbackPartItem
+  id: SilverbackLLeg
+  name: silverback left leg
+  description: The left leg of the Silverback combat mech. It belongs on the chassis of the mech.
+  components:
+  - type: Sprite
+    state: ripley_l_leg
+  - type: Tag
+    tags:
+    - SilverbackLLeg
+
+- type: entity
+  parent: BaseSilverbackPartItem
+  id: SilverbackRLeg
+  name: silverback right leg
+  description: The right leg of the Silverback combat mech. It belongs on the chassis of the mech.
+  components:
+  - type: Sprite
+    state: ripley_r_leg
+  - type: Tag
+    tags:
+    - SilverbackRLeg
+
+- type: entity
+  parent: BaseSilverbackPartItem
+  id: SilverbackRArm
+  name: silverback right arm
+  description: The right arm of the Silverback combat mech. It belongs on the chassis of the mech.
+  components:
+  - type: Sprite
+    state: ripley_r_arm
+  - type: Tag
+    tags:
+    - SilverbackRArm
+
+- type: entity
+  id: SilverbackChassis
+  parent: BaseSilverbackPart
+  name: silverback chassis
+  description: An in-progress construction of the Silverback combat mech.
+  components:
+  - type: Appearance
+  - type: ContainerContainer
+    containers:
+      battery-container: !type:Container
+  - type: MechAssemblyVisuals
+    statePrefix: ripley
+  - type: Sprite
+    noRot: true
+    state: ripley0
+  - type: Construction
+    graph: Silverback
+    node: start
+    defaultTarget: silverback

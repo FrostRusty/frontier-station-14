@@ -186,6 +186,25 @@
   technologyPrerequisites:
   - SalvageWeapons
 
+- type: technology
+  id: CombatMechs
+  name: research-technology-combat-mechs
+  icon:
+    sprite: Objects/Weapons/Guns/HMGs/minigun.rsi
+    state: icon
+  discipline: Arsenal
+  tier: 2
+  cost: 40000
+  recipeUnlocks:
+  - MechEquipmentChaingun
+  - SilverbackHarness
+  - SilverbackLArm
+  - SilverbackRArm
+  - SilverbackLLeg
+  - SilverbackRLeg
+  - SilverbackPeripheralsElectronics
+  - SilverbackCentralElectronics
+
 # Tier 3
 
 - type: technology
@@ -232,3 +251,28 @@
   - ShuttleGunDusterCircuitboard
   technologyPrerequisites:
   - BasicShuttleArmament
+
+- type: technology
+  id: HeavyWeaponry
+  name: research-technology-heavy-weaponry
+  icon:
+    sprite: Objects/Weapons/Guns/LMGs/l6.rsi
+    state: icon
+  discipline: Arsenal
+  tier: 3
+  cost: 40000
+  recipeUnlocks:
+  - WeaponLightMachineGunL6
+  - MagazineLightRifleBox
+
+- type: technology
+  id: Slayer
+  name: research-technology-slayer
+  icon:
+    sprite: Objects/Weapons/Melee/bladesofchaos.rsi
+    state: icon
+  discipline: Arsenal
+  tier: 3
+  cost: 40000
+  recipeUnlocks:
+  - BladesOfChaos

@@ -1196,6 +1196,24 @@
   id: SignalTrigger
 
 - type: Tag
+  id: SilverbackCentralControlModule
+
+- type: Tag
+  id: SilverbackPeripheralsControlModule
+
+- type: Tag
+  id: SilverbackLArm
+
+- type: Tag
+  id: SilverbackLLeg
+
+- type: Tag
+  id: SilverbackRLeg
+
+- type: Tag
+  id: SilverbackRArm
+
+- type: Tag
   id: SkeletonMotorcycleKeys
 
 - type: Tag

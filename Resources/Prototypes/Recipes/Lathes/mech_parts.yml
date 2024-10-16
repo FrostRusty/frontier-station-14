@@ -177,3 +177,48 @@
   materials:
     Steel: 500
     Glass: 200
+
+- type: latheRecipe
+  id: SilverbackHarness
+  result: SilverbackHarness
+  category: Mech
+  completetime: 20
+  materials:
+    Steel: 1800
+    Glass: 1500
+
+- type: latheRecipe
+  id: SilverbackLArm
+  result: SilverbackLArm
+  category: Mech
+  completetime: 20
+  materials: 
+    Steel: 1200
+    Glass: 800
+
+- type: latheRecipe
+  id: SilverbackRArm
+  result: SilverbackRArm
+  category: Mech
+  completetime: 20
+  materials: 
+    Steel: 1200
+    Glass: 800
+
+- type: latheRecipe
+  id: SilverbackLLeg
+  result: SilverbackLLeg
+  category: Mech
+  completetime: 20
+  materials: 
+    Steel: 1200
+    Glass: 800
+
+- type: latheRecipe
+  id: SilverbackRLeg
+  result: SilverbackRLeg
+  category: Mech
+  completetime: 20
+  materials: 
+    Steel: 1200
+    Glass: 800

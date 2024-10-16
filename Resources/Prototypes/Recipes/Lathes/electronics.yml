@@ -599,3 +599,13 @@
   parent: BaseCircuitboardRecipe
   id: CutterMachineCircuitboard
   result: CutterMachineCircuitboard
+
+- type: latheRecipe
+  parent: BaseGoldCircuitboardRecipe
+  id: SilverbackCentralElectronics
+  result: SilverbackCentralElectronics
+
+- type: latheRecipe
+  parent: BaseGoldCircuitboardRecipe
+  id: SilverbackPeripheralsElectronics
+  result: SilverbackPeripheralsElectronics

@@ -667,3 +667,38 @@
     Plastic: 1000
     Plasma: 500
     Glass: 500
+
+
+- type: latheRecipe
+  id: WeaponLightMachineGunL6
+  result: WeaponLightMachineGunL6
+  completetime: 20
+  materials:
+    Steel: 3000
+    Plastic: 500
+    Wood: 500
+
+- type: latheRecipe
+  id: MagazineLightRifleBox
+  result: MagazineLightRifleBox
+  completetime: 10
+  materials:
+    Steel: 40
+
+- type: latheRecipe
+  id: MechEquipmentChaingun
+  result: MechEquipmentChaingun
+  completetime: 30
+  materials:
+    Steel: 4000
+    Plastic: 1000
+    Gold: 500
+
+- type: latheRecipe
+  id: BladesOfChaos
+  result: BladesOfChaos
+  completetime: 10
+  materials:
+    Steel: 1500
+    Gold: 1000
+    Diamond: 2000
