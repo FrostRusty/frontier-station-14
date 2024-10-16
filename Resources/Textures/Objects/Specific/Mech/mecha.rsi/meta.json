@@ -490,6 +490,10 @@
     {
       "name": "silverback",
       "directions": 4
+    },
+    {
+      "name": "silverback-open",
+      "directions": 4
     }
   ]
 }
