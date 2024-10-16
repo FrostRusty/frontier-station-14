@@ -320,7 +320,7 @@
     footstepSoundCollection:
       path: /Audio/Mecha/sound_mecha_powerloader_step.ogg
   - type: Mech
-    baseState: Silverback
+    baseState: silverback
     openState: silverback-open
     brokenState: silverback
     mechToPilotDamageMultiplier: 0.50
