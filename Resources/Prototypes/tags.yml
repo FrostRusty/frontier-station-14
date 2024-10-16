@@ -1214,6 +1214,9 @@
   id: SilverbackRArm
 
 - type: Tag
+  id: SilverbackTorso
+
+- type: Tag
   id: SkeletonMotorcycleKeys
 
 - type: Tag
