@@ -307,7 +307,7 @@
   id: MechSilverback
   parent: BaseMech
   name: Silverback
-  description: PLACEHOLDER
+  description: A combat mech designed by a fan of some game in the Nanotrasen Digital Library
   components:
   - type: Sprite
     drawdepth: Mobs
