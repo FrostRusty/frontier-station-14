@@ -50,3 +50,7 @@
     containers:
       ballistic-ammo: !type:Container
         ents: []
+  - type: ClothingSpeedModifier
+    walkModifier: 0.7
+    sprintModifier: 0.7
+  - type: HeldSpeedModifier

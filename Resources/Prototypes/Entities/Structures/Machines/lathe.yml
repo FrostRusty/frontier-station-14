@@ -595,6 +595,8 @@
       - MedicalAssemblerMachineCircuitboard # Frontier
       - KitchenAssemblerMachineCircuitboard # Frontier
       - ElectricRangeMachineCircuitboard # Frontier
+      - SilverbackCentralElectronics
+      - SilverbackPeripheralsElectronics
   - type: EmagLatheRecipes
     emagDynamicRecipes:
       - ShuttleGunDusterCircuitboard
@@ -727,6 +729,11 @@
     - HamtrLLeg
     - HamtrRLeg
     - VimHarness
+    - SilverbackHarness
+    - SilverbackLArm
+    - SilverbackRArm
+    - SilverbackRLeg
+    - SilverbackLLeg
   - type: MaterialStorage
     whitelist:
       tags:
@@ -915,6 +922,9 @@
       - MagazineBoxMagnumRubber # Frontier
       - MagazineBoxPistolRubber # Frontier
       - MagazineBoxRifleRubber # Frontier
+      - MagazineLightRifleBox
+      - WeaponLightMachineGunL6
+      - MechEquipmentChaingun
   - type: MaterialStorage
     whitelist:
       tags:

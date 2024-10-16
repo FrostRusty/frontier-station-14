@@ -90,6 +90,9 @@
     state: mecha_chaingun
   - type: Gun
     fireRate: 15
+    selectedMode: FullAuto
+    availableModes:
+    - FullAuto
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/minigun.ogg
   - type: BallisticAmmoProvider
@@ -104,3 +107,7 @@
     containers:
       ballistic-ammo: !type:Container
         ents: []
+  - type: ClothingSpeedModifier
+    walkModifier: 0.3
+    sprintModifier: 0.3
+  - type: HeldSpeedModifier
