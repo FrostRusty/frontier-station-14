@@ -734,6 +734,7 @@
     - SilverbackRArm
     - SilverbackRLeg
     - SilverbackLLeg
+    - SilverbackTorso
   - type: MaterialStorage
     whitelist:
       tags:

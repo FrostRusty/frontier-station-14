@@ -14,25 +14,25 @@
           data: 1
 
       - tool: Screwing
-        doAfter: 1
+        doAfter: 2
         completed:
         - !type:VisualizerDataInt
           key: "enum.MechAssemblyVisuals.State"
-          data: 2
-
+          data: 1
+      
       - material: Cable
         completed:
         - !type:VisualizerDataInt
           key: "enum.MechAssemblyVisuals.State"
-          data: 3
-
+          data: 1
+        
       - tool: Cutting
         doAfter: 1
         completed:
         - !type:VisualizerDataInt
           key: "enum.MechAssemblyVisuals.State"
-          data: 4
-
+          data: 1
+      
       - tag: SilverbackCentralControlModule
         name: silverback central control module
         icon:
@@ -41,14 +41,21 @@
         completed:
         - !type:VisualizerDataInt
           key: "enum.MechAssemblyVisuals.State"
-          data: 5
+          data: 1
 
       - tool: Screwing
-        doAfter: 1
+        doAfter: 2
         completed:
         - !type:VisualizerDataInt
           key: "enum.MechAssemblyVisuals.State"
-          data: 6
+          data: 1
+
+      - tool: Anchoring
+        doAfter: 2
+        completed:
+        - !type:VisualizerDataInt
+          key: "enum.MechAssemblyVisuals.State"
+          data: 1
 
       - tag: SilverbackPeripheralsControlModule
         name: silverback peripherals control module
@@ -58,17 +65,14 @@
         completed:
         - !type:VisualizerDataInt
           key: "enum.MechAssemblyVisuals.State"
-          data: 7
+          data: 1
 
       - tool: Screwing
-        doAfter: 1
+        doAfter: 2
         completed:
         - !type:VisualizerDataInt
           key: "enum.MechAssemblyVisuals.State"
-          data: 12
-
-#i omitted the steps involving inserting machine parts because
-#currently mechs don't support upgrading. add them back in once that's squared away.
+          data: 1
 
       - component: PowerCell
         name: power cell
@@ -79,45 +83,87 @@
         completed:
         - !type:VisualizerDataInt
           key: "enum.MechAssemblyVisuals.State"
-          data: 13
+          data: 1
 
       - tool: Screwing
-        doAfter: 1
+        doAfter: 2
         completed:
         - !type:VisualizerDataInt
           key: "enum.MechAssemblyVisuals.State"
-          data: 14
+          data: 1
 
       - material: Steel
         amount: 5
         completed:
         - !type:VisualizerDataInt
           key: "enum.MechAssemblyVisuals.State"
-          data: 15
+          data: 1
 
       - tool: Anchoring
-        doAfter: 1
+        doAfter: 2
         completed:
         - !type:VisualizerDataInt
           key: "enum.MechAssemblyVisuals.State"
-          data: 16
+          data: 1
 
       - tool: Welding
         doAfter: 1
         completed:
         - !type:VisualizerDataInt
           key: "enum.MechAssemblyVisuals.State"
-          data: 17
+          data: 1
+
+      - tag: SilverbackTorso
+        name: silverback torso
+        icon:
+          sprite: "Objects/Misc/module.rsi"
+          state: id_mod
+        completed:
+        - !type:VisualizerDataInt
+          key: "enum.MechAssemblyVisuals.State"
+          data: 2
 
       - material: MetalRod
         amount: 10
         completed:
         - !type:VisualizerDataInt
           key: "enum.MechAssemblyVisuals.State"
-          data: 18
+          data: 2
 
       - tool: Welding
         doAfter: 1
+        completed:
+        - !type:VisualizerDataInt
+          key: "enum.MechAssemblyVisuals.State"
+          data: 2
+
+      - tool: Anchoring
+        doAfter: 2
+        completed:
+        - !type:VisualizerDataInt
+          key: "enum.MechAssemblyVisuals.State"
+          data: 2
+
+      - tool: Screwing
+        doAfter: 2
+        completed:
+        - !type:VisualizerDataInt
+          key: "enum.MechAssemblyVisuals.State"
+          data: 2
+
+      - material: Plasteel
+        amount: 15
+        completed:
+        - !type:VisualizerDataInt
+          key: "enum.MechAssemblyVisuals.State"
+          data: 2
+
+      - tool: Welding
+        doAfter: 1
+        completed:
+        - !type:VisualizerDataInt
+          key: "enum.MechAssemblyVisuals.State"
+          data: 2
 
   - node: silverback
     actions:

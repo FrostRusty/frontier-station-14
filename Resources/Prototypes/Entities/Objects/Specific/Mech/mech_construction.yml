@@ -494,7 +494,7 @@
   - type: Sprite
     drawdepth: Items
     noRot: false
-    sprite: Objects/Specific/Mech/ripley_construction.rsi
+    sprite: Objects/Specific/Mech/silverback_construction.rsi
 
 - type: entity
   id: BaseSilverbackPartItem
@@ -513,23 +513,23 @@
   - type: Appearance
   - type: ItemMapper
     mapLayers:
-      ripley_l_arm+o:
+      silverback_l_arm+o:
         whitelist:
           tags:
           - SilverbackLArm
-      ripley_r_arm+o:
+      silverback_r_arm+o:
         whitelist:
           tags:
           - SilverbackRArm
-      ripley_l_leg+o:
+      silverback_l_leg+o:
         whitelist:
           tags:
           - SilverbackLLeg
-      ripley_r_leg+o:
+      silverback_r_leg+o:
         whitelist:
           tags:
           - SilverbackRLeg
-    sprite: Objects/Specific/Mech/ripley_construction.rsi
+    sprite: Objects/Specific/Mech/silverback_construction.rsi
   - type: ContainerContainer
     containers:
       mech-assembly-container: !type:Container
@@ -541,7 +541,7 @@
       SilverbackLLeg: false
       SilverbackRLeg: false
   - type: Sprite
-    state: ripley_harness+o
+    state: silverback_harness+o
     noRot: true
 
 - type: entity
@@ -551,7 +551,7 @@
   description: The left arm of the Silverback combat mech. It belongs on the chassis of the mech.
   components:
   - type: Sprite
-    state: ripley_l_arm
+    state: silverback_l_arm
   - type: Tag
     tags:
     - SilverbackLArm
@@ -563,7 +563,7 @@
   description: The left leg of the Silverback combat mech. It belongs on the chassis of the mech.
   components:
   - type: Sprite
-    state: ripley_l_leg
+    state: silverback_l_leg
   - type: Tag
     tags:
     - SilverbackLLeg
@@ -575,7 +575,7 @@
   description: The right leg of the Silverback combat mech. It belongs on the chassis of the mech.
   components:
   - type: Sprite
-    state: ripley_r_leg
+    state: silverback_r_leg
   - type: Tag
     tags:
     - SilverbackRLeg
@@ -587,10 +587,22 @@
   description: The right arm of the Silverback combat mech. It belongs on the chassis of the mech.
   components:
   - type: Sprite
-    state: ripley_r_arm
+    state: silverback_r_arm
   - type: Tag
     tags:
     - SilverbackRArm
+
+- type: entity
+  parent: BaseSilverbackPartItem
+  id: SilverbackTorso
+  name: silverback torso
+  description: The torso armor of the Silverback combat mech. Attaches during the construction process.
+  components:
+  - type: Sprite
+    state: silverback_torso
+  - type: Tag
+    tags:
+    - SilverbackTorso
 
 - type: entity
   id: SilverbackChassis
@@ -603,10 +615,10 @@
     containers:
       battery-container: !type:Container
   - type: MechAssemblyVisuals
-    statePrefix: ripley
+    statePrefix: silverback
   - type: Sprite
     noRot: true
-    state: ripley0
+    state: silverback0
   - type: Construction
     graph: Silverback
     node: start

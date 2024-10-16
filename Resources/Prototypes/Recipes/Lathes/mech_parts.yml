@@ -222,3 +222,11 @@
   materials: 
     Steel: 1200
     Glass: 800
+
+- type: latheRecipe
+  id: SilverbackTorso
+  result: SilverbackTorso
+  category: Mech
+  completetime: 20
+  materials:
+    Steel: 3000

@@ -1,0 +1,104 @@
+{
+  "copyright" : "Drawn by F4T4L Blitz, @f4t4lblitz",
+  "license" : "CC-BY-SA-3.0",
+  "version": 1,
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "silverback_chassis"
+    },
+    {
+      "name": "silverback_harness"
+    },
+    {
+      "name": "silverback_harness+o"
+    },
+    {
+      "name": "silverback_r_arm"
+    },
+    {
+      "name": "silverback_r_arm+o"
+    },
+    {
+      "name": "silverback_l_arm"
+    },
+    {
+      "name": "silverback_l_arm+o"
+    },
+    {
+      "name": "silverback_r_leg"
+    },
+    {
+      "name": "silverback_r_leg+o"
+    },
+    {
+      "name": "silverback_l_leg"
+    },
+    {
+      "name": "silverback_l_leg+o"
+    },
+    {
+      "name": "silverback0"
+    },
+    {
+      "name": "silverback1"
+    },
+    {
+      "name": "silverback2"
+    },
+    {
+      "name": "ripley3"
+    },
+    {
+      "name": "ripley4"
+    },
+    {
+      "name": "ripley5"
+    },
+    {
+      "name": "ripley6"
+    },
+    {
+      "name": "ripley7"
+    },
+    {
+      "name": "ripley8"
+    },
+    {
+      "name": "ripley9"
+    },
+    {
+      "name": "ripley10"
+    },
+    {
+      "name": "ripley11"
+    },
+    {
+      "name": "ripley12"
+    },
+    {
+      "name": "ripley13"
+    },
+    {
+      "name": "ripley14"
+    },
+    {
+      "name": "ripley15"
+    },
+    {
+      "name": "ripley16"
+    },
+    {
+      "name": "ripley17"
+    },
+    {
+      "name": "ripley18"
+    },
+    {
+      "name": "silverback_torso"
+    }
+  ]
+}
